@@ -22,7 +22,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height:70px;">
         <a class="navbar-brand ml-1" href="http://localhost:8000/">Empresa</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,8 +47,6 @@
             SEJA BEM-VINDO
         </div>
     </div>
-
-
 
     <div id="footer">
         <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50 fixed-bottom">
