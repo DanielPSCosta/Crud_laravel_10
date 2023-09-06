@@ -10,17 +10,14 @@
 
     body {
         background-image: url("http://localhost/laravel_10/resources/img/img2.jpg");
-        /* opacity: 0.5; */
         /* background-color: #cccccc; */
     }
-
 </style>
 
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Laravel 10 CRUD</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -36,20 +33,23 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="http://localhost:8000/">Home</a>
                 </li>
-                <!-- <li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
-					</li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost:8000/products">Crud</a>
+                </li>
             </ul>
             <span class="position-absolute top-30 end-0" style="margin-right:20px;">
-                SEJA BEM-VINDO
+                Usuario
             </span>
         </div>
-
     </nav>
 
-    <div class="container">
-        @yield('content')
+    <div class="row">
+        <div class="position-absolute text-light mt-5" style="font-size:100px; text-align:center;">
+            SEJA BEM-VINDO
+        </div>
     </div>
+
+
 
     <div id="footer">
         <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50 fixed-bottom">

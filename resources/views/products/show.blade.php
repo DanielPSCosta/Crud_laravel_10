@@ -1,16 +1,16 @@
 @extends('products.layout')
 
 @section('content')
-<div class="row mt-5">
+<div class="row mt-5 text-light">
     <div class="col-lg-12 margin-tb">
-        <div class="pull-left">
+        <div class="pull-left ">
             <h2>Produto</h2>
         </div>
 
     </div>
 </div>
 
-<div class="row mt-2">
+<div class="row mt-2 text-light">
     <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
         <div class="form-group">
             <strong>Nome:</strong>

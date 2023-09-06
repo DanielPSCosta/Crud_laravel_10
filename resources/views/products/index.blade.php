@@ -3,7 +3,7 @@
 @section('content')
     <div class="row mt-5 mb-3">
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
+            <div class="pull-left text-light">
                 <h2>Laravel 10 CRUD</h2>
             </div>
             <div class="pull-right  mt-4">
@@ -18,13 +18,13 @@
         </div>
     @endif
    
-    <table class="table table-dark mt-2">
+    <table class="table table-dark mt-2 text-light">
         <tr>
             <th>No</th>
             <th>id</th>
             <th>Nome</th>
             <th>Detalhe</th>
-            <th width="280px">Action</th>
+            <th width="280px">Ações</th>
         </tr>
         @foreach ($products as $product)
         <tr>
